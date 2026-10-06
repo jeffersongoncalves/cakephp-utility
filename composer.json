@@ -1,6 +1,6 @@
 {
   "name": "jeffersonsimaogoncalves/cakephp-utility",
-  "description": "CakePHP 3 plugin to provide basic support for building REST API services",
+  "description": "CakePHP 3 plugin for REST API / DataTables-style responses: render action links, forms and Fractal transformers.",
   "keywords": [
     "cakephp",
     "utils"
