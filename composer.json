@@ -1,40 +1,43 @@
 {
-  "name": "jeffersonsimaogoncalves/cakephp-utility",
-  "description": "CakePHP 3 plugin for REST API / DataTables-style responses: render action links, forms and Fractal transformers.",
-  "keywords": [
-    "cakephp",
-    "utils"
-  ],
-  "type": "cakephp-plugin",
-  "homepage": "https://github.com/jeffersonsimaogoncalves/cakephp-utility",
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Jefferson Simão Gonçalves",
-      "homepage": "https://github.com/jeffersonsimaogoncalves",
-      "role": "Author"
+    "name": "jeffersonsimaogoncalves/cakephp-utility",
+    "description": "CakePHP 3 plugin for REST API / DataTables-style responses: render action links, forms and Fractal transformers.",
+    "keywords": [
+        "cakephp",
+        "utils"
+    ],
+    "type": "cakephp-plugin",
+    "homepage": "https://github.com/jeffersonsimaogoncalves/cakephp-utility",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jefferson Simão Gonçalves",
+            "homepage": "https://github.com/jeffersonsimaogoncalves",
+            "role": "Author"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/jeffersonsimaogoncalves/cakephp-utility/issues",
+        "source": "https://github.com/jeffersonsimaogoncalves/cakephp-utility"
+    },
+    "require": {
+        "php": ">=7.0",
+        "airmanbzh/php-html-generator": "^1.0",
+        "cakephp/utility": "^3.0",
+        "league/fractal": ">=0.13.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "JeffersonSimaoGoncalves\\Utility\\": "src"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true,
+        "htaccess-protect": true,
+        "optimize-autoloader": true
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
     }
-  ],
-  "support": {
-    "issues": "https://github.com/jeffersonsimaogoncalves/cakephp-utility/issues",
-    "source": "https://github.com/jeffersonsimaogoncalves/cakephp-utility"
-  },
-  "require": {
-    "php": ">=7.0",
-    "airmanbzh/php-html-generator": "^1.0",
-    "cakephp/utility": "^3.0",
-    "league/fractal": ">=0.13.0"
-  },
-  "autoload": {
-    "psr-4": {
-      "JeffersonSimaoGoncalves\\Utility\\": "src"
-    }
-  },
-  "minimum-stability": "stable",
-  "prefer-stable": true,
-  "config": {
-    "sort-packages": true,
-    "htaccess-protect": true,
-    "optimize-autoloader": true
-  }
 }
