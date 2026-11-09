@@ -28,6 +28,10 @@ updates:
       - dependency-name: cakephp/*
         versions:
           - '>=4.0'
+      # CI runs PHP 7.4; PHPUnit 9+ breaks the suite.
+      - dependency-name: phpunit/phpunit
+        versions:
+          - '>=9.0'
     groups:
       composer-deps:
         patterns:
